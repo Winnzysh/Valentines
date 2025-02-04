@@ -42,6 +42,7 @@ function flashRainbowColors(callback) {
 
 // Function to display the little-cute.gif initially
 function displayLittleCute() {
+    document.getElementById('image-container').innerHTML = '';
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the little-cute
